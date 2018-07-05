@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: newragamicro
+  labels:
+    language: go
+    env: test
+spec:
+  containers:
+  - image: ragadocker/newragamicro:1.0.1
+    name: newragamicro
+    ports:
+    - containerPort: 8080 
+      protocol: TCP
