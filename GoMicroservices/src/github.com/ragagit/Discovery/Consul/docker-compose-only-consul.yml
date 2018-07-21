@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  consul:
+    image: consul:0.8.3
+    ports:
+      - "8300:8300"
+      - "8400:8400"
+      - "8500:8500"
+    links:
+      - gin-web-01
+      - gin-web-02
+    networks:
+      - sky-net
+
+networks:
+  sky-net:
+    driver: bridge
