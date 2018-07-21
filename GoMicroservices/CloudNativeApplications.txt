@@ -1,0 +1,322 @@
+Cloud Native Applications
+
+Take advantage what the cloud offers
+Hyperscale
+Antifragility
+Continuous delivery
+Open savings (Automation and Utilization)
+
+3 Key Principles of Cloud Native Applications
+- Built and Composed as MicroServices
+- Packager and Distributed in Containers
+- Dynamically executed in the cloud
+
+Design Principles of cloud native applications
+Design for performance: Responsive, concurrency, efficiency
+Design for Automation:Automate dev tasks and ops tasks
+Design for Resiliency: Fault tolerant  and self healing
+Design for Elasticity: Dynamically scale up and down and be reactive
+Design for DeliveryShort roundtripsand automated delivery
+Design for Diagnosability: Cluster-wide logs, traces and metrics
+
+
+sudo rm -rf /usr/local/go
+docker pull golang:1.10.3-alpine3.7
+docker run alpine ls -l
+docker run alpine echo "hello from alpine"
+docker ps -a
+docker run -it alpine /bin/sh (this is interactive as if you were in the container)
+
+
+
+==== Docker ===
+To build a docker image
+docker build -t ragamicro:1.0.0 .
+
+Tag it 
+docker tag ragamicro:1.0.1 ragadocker/ragamicro:1.0.1
+
+Log in to docker
+docker login
+
+Push it to docker
+docker push ragadocker/ragamicro:1.0.1
+
+To run it
+docker run -it -p 8080:8080 ragamicro:1.0.1	-it means attached to a tty, -p no report anything, map port 8080 to local port 8080
+
+docker run -it -e "PORT=9090" -p 9090:9090 ragamicro:1.0.1
+
+docker ps
+docker ps --all
+
+To run it in the background 
+docker run --name ragamicro -d -p 8080:8080 ragamicro:1.0.1
+
+To get some stats
+docker stats
+
+To stop it
+docker stop ragamicro
+
+To restart
+docker start ragamicro
+
+To kill
+docker kill ragamicro
+
+To remove. This doesn't remove the image just the container name
+docker rm ragamicro
+
+To constrain resources 
+docker run --name ragamicro --cpu-quota 50000 --memory 64m --memory-swappiness 0 -d -p 8080:8080 ragamicro:1.0.1
+
+To remove an image
+docker image rm 72dbf0d2a708
+
+To stop all containers
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+
+To remove all images
+docker rmi $(docker images -q)
+
+=== Docker compose ===
+docker-compose build
+
+docker-compose up -d
+docker-compose kill
+docker-compose stop nginx
+
+docker rm 
+
+docker image rm
+
+==== Kubernetes ===
+Installation
+
+- Install kubectl
+  brew install kubernetes-cli
+
+- Install minikube
+  brew cask install minikube
+
+- Start minikube
+  minikube start
+
+- Stop minubuke
+  minikube stop
+
+- Ask for status
+  minukube status
+  kubectl cluster-info
+
+- Dashboard
+  mininkube dashboard
+
+- Get nodes
+  kubectl get nodes
+  kubectl config get-contexts
+
+- Environment
+  minikube docker-env
+  eval $(minikube docker-env)
+
+- To deploy our micro service (pod) into kubernetes, create the yml file and run the following command 
+  kubectl create -f k8s-pod.yml //This creates a pod
+  kubectl get pods
+  kubectl describe pod microgo
+
+- To delete a pod
+  kubectl delete pod ragamicro
+  kubectl delete pods --all
+
+- To start it in Kubernetes
+  kubectl port-forward ragamicro 9797:9797
+
+- Labels
+  kubectl get pods --show-labels
+  kubectl get pods -o wide -L env
+
+- Attach a label
+  kubectl label pod ragamicro hello=world
+
+- To see it
+  kubectl get pods -o wide -L hello
+
+- To overwrite a label
+  kubectl label pod ragamicro env=prod --overwrite
+  kubectl get pods -o wide -L env
+
+- Namespace (group things together)
+  kubectl get ns
+  kubectl get pods --namespace kube-system
+
+- Create a namespace
+  kubectl create -f k8s-namespace.yml
+
+- To create a micro service in a namespace
+  kubectl create -f k8s-pod.yml --namespace ragamicro
+  kubectl get pods --namespace ragamicro
+
+- To delete all what is in the namespace
+  kubectl delete -f k8s-namespace.yml
+
+- Deployment
+kubectl get deployments,pods,rs
+kubectl create -f k8s-deployment.yml
+kubectl apply -f k8s-deployment.yml
+kubectl describe deployment newragamicro 
+
+- Service
+kubectl create -f k8s-service.yml
+kubectl get services
+
+- To stop the pods and services you need to delete the deployment
+kubectl delete deployment newragamicro
+kubectl create -f k8s-deployment.yml --record=true //monitor with 
+kubectl get pods -w
+
+- Scaling
+kubectl scale deployment newragamicro --replicas=5
+kubectl scale deployment newragamicro --replicas=2
+
+- Rollout history
+kubectl rollout history deployment newragamicro
+
+- To update in a rolling out fashion, first prepare the new version then
+kubectl set image deployment newragamicro newragamicro=ragadocker/newragamicro:1.0.2
+
+- To roll back
+kubectl rollout undo deployment newragamicro
+
+=== Advance Microservices ===
+gitHub.com/cncf/landscape
+go get -u github.com/gin-gonic/gin
+
+Modify Dockefile and docker-compose
+
+- Build image
+docker-compose build
+
+- Run container
+docker-compose up -d
+ 
+-Stop container
+docker-compose stop
+
+-Tag and push
+docker tag gin-web:1.0.1 ragadocker/gin-web:1.0.1
+docker push ragadocker/gin-web:1.0.1
+
+- Ingress external access to define services in kubernetes
+
+- Create Deployment ands service yml file
+
+- Get IP address
+minukube ip
+
+- Deploy
+kubectl apply -f kubernetes/ //this lat parameter is the location our yml files
+
+- To see the logs of the pod
+kubectl logs gin-web-564f4c4656-lvfcq
+
+- To launch h the service without knowing the port
+minikube service gin-web
+
+- To scale
+kubectl scale deployment gin-web --replicas=7
+
+=== Consul ===
+Create compose yml file and 
+docker-compose up
+
+- To launch consul GUI
+localhost:8500
+
+- Using postman get services
+http://localhost:8500/v1/catalog/services
+http://localhost:8500/v1/agent/services
+
+- Register service with consul API
+docker ps
+docker stop consul_gin-web-02_1
+Check health with UI or through API
+
+=== Configuration ===
+You can add key value pairs through the Gui.
+Or through command line
+consul kv put foo bar
+
+- To get configuration
+consul kv get foo
+
+=== Registrering microservice in consul ===
+Create micro service and include
+
+go get -u github.com/hashicorp/consul/api
+
+Add registration function
+
+Use docker-compose.yml for configuration
+
+Create client and use api to get service info
+
+=== Service Discovery and Configuration with Kubernetes ===
+
+Service is an abstraction of the available pods
+
+Config map a set of string to access the services.
+
+- Build server and client from project Kubernetes directory
+
+docker-compose build
+
+- Deploy the service
+kubectl apply -f simple-k8s-server-deployment.yaml
+kubectl apply -f simple-k8s-server-service.yaml
+kubectl apply -f simple-k8s-configmap.yaml
+kubectl apply -f simple-k8s-client-deployment.yaml
+
+
+=== Microservices communication ===
+
+Synchronous and asynchronous 
+
+- Go Micro
+Binary rpc
+- To get hystrix
+go get github.com/afex/hystrix-go/hystrix
+
+- To get micro 
+go get github.com/micro/protoc-gen-micro
+go get -u github.com/micro/micro
+go get github.com/micro/go-plugins/wrapper/breaker/hystrix
+go get github.com/micro/protobuf/proto
+go get -u github.com/micro/protobuf/protoc-gen-go
+Hystrix runs on 
+Localhost:9002/hystric then give stream go-micro-client
+
+=== Rabbit MQ ===
+
+Modify yml files and Dockerfiles
+- If you want to start producer first
+Docker start rabbitmq_rabbitmq-consumer_1
+
+Or do a docker-compose up
+
+Check RabbitMQ
+
+Localhost:15672
+
+=== Kafka ===
+Modify yml files accordingly.
+
+protoc --go_out=plugins=grpc:. helloworld.proto
+
+
+
+
+
+
