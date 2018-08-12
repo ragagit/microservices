@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../../../../../../dev/npl/module/discovery/src/main/scala/com/auvik/npl/discovery/driver/SshServiceManager.scala" description="val ipForSnmp = psnmpr.seq.headOption.flatMap(_.ad..." line="311" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9d9554bb-2793-4ddf-bc92-bf0b4820f366" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,40 +14,122 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Communication/gRPCHello/greeter_server/main.go">
+      <file leaf-file-name="gopherface.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/gopherface.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="301">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
               <folding>
-                <element signature="e#724#900#0" expanded="true" />
+                <element signature="e#14#416#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Communication/Go-Micro/server/main.go">
+      <file leaf-file-name="session.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/authenticate/session.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="657">
+              <caret line="49" column="101" selection-start-line="49" selection-start-column="101" selection-end-line="49" selection-end-column="101" />
+              <folding>
+                <element signature="e#22#153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Communication/Go-Micro/client/main.go">
+      <file leaf-file-name="gated.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/middleware/gated.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="48">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/common/asyncq/task.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asyncq.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/common/asyncq/asyncq.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-420">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
-                <element signature="e#14#288#0" expanded="true" />
+                <element signature="e#16#33#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gopherface.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/gopherface.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-592">
+              <folding>
+                <element signature="e#14#471#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cookie.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/common/authenticate/cookie.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/common/authenticate/session.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="643">
+              <caret line="49" column="98" selection-start-line="49" selection-start-column="98" selection-end-line="49" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imagetask.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/tasks/imagetask.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="uploadimage.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/handlers/uploadimage.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21" />
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Fetch</find>
+      <find>Engineer</find>
+      <find>EngineerKamesh/gofullstack/volume2</find>
+      <find>EngineerKamesh</find>
+      <find>GOPHERFACE_HASH_KEY</find>
+      <find>Encountered error when attempting</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>ragagit/GoBackEnd</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/GoBackEnd/section5</dir>
+      <dir>$PROJECT_DIR$/GoBackEnd</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/GoBackEnd/section6</dir>
+    </dirStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="GoLibraries">
@@ -65,26 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/k8s-pod.yml" />
-        <option value="$PROJECT_DIR$/k8s-namespace.yml" />
-        <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/k8s-service.yml" />
-        <option value="$PROJECT_DIR$/ragamicro/ragamicro.go" />
-        <option value="$PROJECT_DIR$/k8s-deployment.yml" />
-        <option value="$PROJECT_DIR$/Gin-Web/main.go" />
-        <option value="$PROJECT_DIR$/Gin-Web/Dockerfile" />
-        <option value="$PROJECT_DIR$/Gin-Web/kubernetes/k8s-deployment.yml" />
-        <option value="$PROJECT_DIR$/Discovery/Consul/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/Discovery/Consul/docker-compose-only-consul.yml" />
-        <option value="$PROJECT_DIR$/Discovery/Simple/server/Dockerfile" />
-        <option value="$PROJECT_DIR$/Discovery/Simple/client/Dockerfile" />
-        <option value="$PROJECT_DIR$/Discovery/Kubernetes/server/Dockerfile" />
-        <option value="$PROJECT_DIR$/Discovery/Kubernetes/client/Dockerfile" />
-        <option value="$PROJECT_DIR$/Discovery/Kubernetes/simple-k8s-client-deployment.yaml" />
-        <option value="$PROJECT_DIR$/Discovery/Kubernetes/simple-k8s-server-deployment.yaml" />
-        <option value="$PROJECT_DIR$/Communication/Go-Micro/client/main.go" />
-        <option value="$PROJECT_DIR$/../miekg/dns/msg_helpers.go" />
         <option value="$PROJECT_DIR$/Communication/Go-Micro/client/Dockerfile" />
         <option value="$PROJECT_DIR$/Communication/Go-Micro/server/Dockerfile" />
         <option value="$PROJECT_DIR$/Communication/Go-Micro/docker-compose.yml" />
@@ -97,6 +162,45 @@
         <option value="$PROJECT_DIR$/Communication/gRPCHello/helloworld/helloworld.proto" />
         <option value="$PROJECT_DIR$/Communication/gRPCHello/greeter_server/main.go" />
         <option value="$PROJECT_DIR$/Communication/gRPCHello/greeter_client/main.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section1/templatedemo/templatedemo.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section2/gopherface/gopherface.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section3/gopherfaceform/handlers/signup.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/config/gopherfacedb.sql" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/models/user.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/common/datastore/mysql.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/common/datastore/mongodb.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/common/datastore/redis.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/common/datastore/datastore.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/common/common.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/handlers/postpreview.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/handlers/uploadimage.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/handlers/uploadvideo.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/handlers/signup.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/endpoints/fetchposts.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/gopherface.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/authenticate/authenticate.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/common.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/datastore/mysql.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section1/smptemplate/smptemplate.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/datastore/redis.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section2/gopherface/endpoints/fetchposts.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section3/gopherfaceform/handlers/postpreview.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section3/gopherfaceform/endpoints/fetchposts.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section3/gopherfaceform/gopherface.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section4/gopherfaceform/handlers/signup.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/datastore/mongodb.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section4/gopherfaceform/handlers/postpreview.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section4/gopherfaceform/endpoints/fetchposts.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section4/gopherfaceform/gopherface.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/handlers/signup.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/endpoints/fetchposts.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/endpoints/fetchposts.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/gopherface.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/handlers/login.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/authenticate/cookie.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/authenticate/session.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/common/authenticate/cookie.go" />
+        <option value="$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/common/authenticate/session.go" />
       </list>
     </option>
   </component>
@@ -107,9 +211,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
-    <option name="y" value="54" />
-    <option name="width" value="1589" />
+    <option name="x" value="81" />
+    <option name="y" value="229" />
+    <option name="width" value="2239" />
     <option name="height" value="935" />
   </component>
   <component name="ProjectView">
@@ -117,6 +221,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectFilesPane">
+        <option name="show-excluded-files" value="true" />
+        <option name="show-only-loaded-files" value="false" />
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,80 +237,87 @@
             <path>
               <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
               <item name="ragagit" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
+              <item name="GoBackEnd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
               <item name="ragagit" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-              <item name="Go-Micro" type="462c0819:PsiDirectoryNode" />
+              <item name="GoBackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="section1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
               <item name="ragagit" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-              <item name="Go-Micro" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="GoBackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="section7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
               <item name="ragagit" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-              <item name="Go-Micro" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="GoBackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="section7" type="462c0819:PsiDirectoryNode" />
+              <item name="gopherfaceq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
               <item name="ragagit" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-              <item name="Go-Micro" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="GoBackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="section7" type="462c0819:PsiDirectoryNode" />
+              <item name="gopherfaceq" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
               <item name="ragagit" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-              <item name="gRPCHello" type="462c0819:PsiDirectoryNode" />
+              <item name="GoBackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="section7" type="462c0819:PsiDirectoryNode" />
+              <item name="gopherfaceq" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="asyncq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
               <item name="ragagit" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-              <item name="gRPCHello" type="462c0819:PsiDirectoryNode" />
-              <item name="greeter_client" type="462c0819:PsiDirectoryNode" />
+              <item name="GoBackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="section7" type="462c0819:PsiDirectoryNode" />
+              <item name="gopherfaceq" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="authenticate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
               <item name="ragagit" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-              <item name="gRPCHello" type="462c0819:PsiDirectoryNode" />
-              <item name="greeter_server" type="462c0819:PsiDirectoryNode" />
+              <item name="GoBackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="section7" type="462c0819:PsiDirectoryNode" />
+              <item name="gopherfaceq" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="datastore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
               <item name="ragagit" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-              <item name="gRPCHello" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
+              <item name="GoBackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="section7" type="462c0819:PsiDirectoryNode" />
+              <item name="gopherfaceq" type="462c0819:PsiDirectoryNode" />
+              <item name="handlers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
               <item name="ragagit" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-              <item name="gRPCHello" type="462c0819:PsiDirectoryNode" />
-              <item name="mock_helloworld" type="462c0819:PsiDirectoryNode" />
+              <item name="GoBackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="section7" type="462c0819:PsiDirectoryNode" />
+              <item name="gopherfaceq" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ragagit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectFilesPane">
-        <option name="show-excluded-files" value="true" />
-        <option name="show-only-loaded-files" value="false" />
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,6 +335,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GoBackEnd" />
       <recent name="$PROJECT_DIR$/Communication/gRPCHello" />
       <recent name="$PROJECT_DIR$/Communication/Go-Micro/proto" />
       <recent name="$PROJECT_DIR$" />
@@ -238,6 +356,15 @@
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="go build templatedemo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ragagit" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/GoBackEnd/section1/templatedemo/templatedemo.go" />
+      <package value="github.com/ragagit" />
+      <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -277,6 +404,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build templatedemo.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -310,15 +442,17 @@
       <workItem from="1530835416405" duration="2740000" />
       <workItem from="1530972236163" duration="12214000" />
       <workItem from="1531317495003" duration="22515000" />
-      <workItem from="1531605916811" duration="14631000" />
+      <workItem from="1531605916811" duration="31661000" />
+      <workItem from="1532787571114" duration="596000" />
+      <workItem from="1532794510918" duration="20286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58678000" />
+    <option name="totallyTimeSpent" value="96590000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="54" width="1589" height="935" extended-state="0" />
+    <frame x="81" y="229" width="2239" height="935" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -336,21 +470,23 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SBT Console" order="7" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" x="0" y="0" width="347" height="735" id="Documentation" side_tool="true" weight="0.32976714" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329849" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23033354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16346583" />
       <window_info anchor="bottom" id="Pants Console" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Graphical Navigator" internal_type="SLIDING" order="3" type="SLIDING" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -358,9 +494,8 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="SBT Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -373,19 +508,20 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329849" />
       <window_info anchor="right" id="UML Diagrams" internal_type="SLIDING" order="6" type="SLIDING" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17715392" />
       <window_info anchor="right" id="Database" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -401,351 +537,368 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docker-compose" />
-    <entry file="file://$PROJECT_DIR$/k8s-namespace.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose" />
-    <entry file="file://$PROJECT_DIR$/docker-compose" />
-    <entry file="file://$PROJECT_DIR$/k8s-namespace.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gin-Web/.kube/schema/v1.6.0/api/v1/schema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12451" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gin-Web/book.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ragamicro/ragamicro.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Simple/client/simple-client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Simple/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Simple/server/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Simple/client/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Kubernetes/server/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/common/common.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Simple/server/simple-server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Consul/docker-compose-only-consul.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k8s-deployment.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gin-Web/kubernetes/k8s-deployment.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gin-Web/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-554">
-          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Kubernetes/server/simple-k8s-server.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Consul/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Kubernetes/simple-k8s-client-deployment.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Kubernetes/client/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Kubernetes/simple-k8s-configmap.yaml">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/handlers/postpreview.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/k8s-service.yml">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/handlers/uploadimage.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="209">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gin-Web/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/handlers/uploadvideo.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="228">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/k8s-pod.yml">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/handlers/signup.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Kubernetes/simple-k8s-server-deployment.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Discovery/Kubernetes/client/simple-k8s-client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../C08961_code_bundle/Advanced Cloud Native Go [Video]/Advanced-Cloud-Native-Go/Communication/Go-Micro/proto/greeter.pb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miekg/dns/msg_helpers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2603">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        <state relative-caret-position="961">
+          <caret line="119" column="52" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
           <folding>
-            <element signature="e#13#114#0" expanded="true" />
+            <element signature="e#18#297#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Go-Micro/server/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/endpoints/fetchposts.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/RabbitMQ/producer/producer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        <state relative-caret-position="605">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding>
-            <element signature="e#14#82#0" expanded="true" />
+            <element signature="e#19#176#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/RabbitMQ/consumer/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section1/smptemplate/smptemplate.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/RabbitMQ/producer/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/RabbitMQ/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Go-Micro/proto/greeter.pb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
-            <element signature="e#429#646#0" expanded="true" />
+            <element signature="e#71#195#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Go-Micro/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Go-Micro/client/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section2/gopherface/endpoints/fetchposts.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Kafka/producer/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section3/gopherfaceform/handlers/postpreview.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="114">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Kafka/producer/producer.go">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section3/gopherfaceform/endpoints/fetchposts.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="491">
+          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
-            <element signature="e#14#76#0" expanded="true" />
+            <element signature="e#19#178#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Kafka/subscriber/subscriber.go">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section3/gopherfaceform/gopherface.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
+        <state relative-caret-position="76">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section4/gopherfaceform/handlers/signup.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section4/gopherfaceform/handlers/postpreview.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section4/gopherfaceform/endpoints/fetchposts.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
           <folding>
-            <element signature="e#14#88#0" expanded="true" />
+            <element signature="e#19#178#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Kafka/subscriber/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section4/gopherfaceform/gopherface.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="57">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Kafka/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/datastore/mongodb.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/gRPCHello/helloworld/helloworld.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        <state relative-caret-position="95">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Go-Micro/proto/greeter.proto">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/datastore/redis.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="152">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/gRPCHello/greeter_client/main.go">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/handlers/signup.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="278">
+          <caret line="116" column="35" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/endpoints/fetchposts.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/endpoints/fetchposts.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/common/datastore/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/common/datastore/mongodb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/datastore/mysql.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="e#618#764#0" expanded="true" />
+            <element signature="e#19#153#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/gRPCHello/greeter_server/main.go">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/common/datastore/datastore.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="95">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/common/datastore/mysql.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
-            <element signature="e#724#900#0" expanded="true" />
+            <element signature="e#19#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Go-Micro/server/main.go">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/templates/loginform.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/datastore/datastore.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="76">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/Go-Micro/client/main.go">
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/common.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section5/gopherfacedb/gopherface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/handlers/feed.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/templates/feed.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/utility/sha256.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/utility/uuid.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/authenticate/authenticate.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#14#288#0" expanded="true" />
+            <element signature="e#22#185#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/handlers/login.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gorilla/securecookie/securecookie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="154" column="5" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/cookie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5280">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/authenticate/cookie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="77" column="39" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="39" />
+          <folding>
+            <element signature="e#22#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gorilla/sessions/sessions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gorilla/sessions/store.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="182" column="18" selection-start-line="182" selection-start-column="18" selection-end-line="182" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/common/authenticate/session.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="49" column="101" selection-start-line="49" selection-start-column="101" selection-end-line="49" selection-end-column="101" />
+          <folding>
+            <element signature="e#22#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/gopherface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding>
+            <element signature="e#14#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section6/gopherfaceauth/middleware/gated.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/common/asyncq/task.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/common/asyncq/asyncq.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#16#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/tasks/imagetask.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/handlers/uploadimage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/gopherface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592">
+          <folding>
+            <element signature="e#14#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/common/authenticate/cookie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoBackEnd/section7/gopherfaceq/common/authenticate/session.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="49" column="98" selection-start-line="49" selection-start-column="98" selection-end-line="49" selection-end-column="98" />
         </state>
       </provider>
     </entry>
