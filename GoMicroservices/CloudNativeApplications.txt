@@ -1,6 +1,25 @@
 Cloud Native Applications
 
-Take advantage what the cloud offers
+=== Installing & Upgrade ====
+xcode-select -p // to check if Xcode is installed
+xcode-select --install
+If existing installation remove /usr/local/go/ also /etc/paths.d/go file
+brew doctor
+brew search golang
+brew install golang
+brew update
+brew upgrade golang
+
+=== Workspace ====
+mkdir -p $HOME/go/{bin,src}
+nano ~/.bash_profile
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+. ~/.bash_profile
+In src you can have github.com/user where user is the git user
+go get github.com/stretchr/testify
+
+=== Take advantage what the cloud offers ===
 Hyperscale
 Antifragility
 Continuous delivery
@@ -19,17 +38,81 @@ Design for Elasticity: Dynamically scale up and down and be reactive
 Design for DeliveryShort roundtripsand automated delivery
 Design for Diagnosability: Cluster-wide logs, traces and metrics
 
+=== Components all Along the software lifecycle ===
+Design - Design components Complexity, Data Integrity, Feature, Decouple unit
+Build - Dev Component Planning Unit, Knowledge, Development, Integrity.
+Run - Ops Components Release, Deployment, Runtime, Scaling. Application that is packed in a container and has several interfaces. More components more complexity.
 
-sudo rm -rf /usr/local/go
+=== Cloud Native Stack ===
+These three refer as Cluster Operating System
+Cluster Virtuaization - Docker
+Cluster Sceheduler - Kubernetes
+Cluster Orchestration - Kubernetes
+
+Application Platform - Cloud Native App
+
+=== Hardware vs OS virtualization ===
+Hardware Virtualization
+Application, OS Libraries, OS, Virtual Hardware
+OS Virtualization
+Application, OS Libraries
+
+Container is the running state of an image.
+
+=== Tools & Testing ===
+go test
+go test -v
+go test -coverprofile api -v
+go help testflag
+go test -coverprofile cover.out
+go tool cover -html=cover.out -o cover.html
+go vet github.com/ragagit/gomicroservices
+
+go list -m all //to list dependencies
+
+=== Docker ===
+
+docker build -t <tag>
+docker images
+docker run
+	-d			* in background
+	-e <env variable>
+	-p <host-port>:<container-port>
+	<image> <entrypoint process>
+docker run
+	-ti			* with forwarding of local terminal
+	<image> /bin/sh		* image name and shell
+
+docker ps --all			* prints all containers (without --all prints only running containers)
+docker kill <container>
+docker rm <container>
+docker rmi -f <image>		* remove local image (use -f to force removal).
+
+To build and tag a container
+docker build -f DockerfileSrc -t cloud-native-go:1.0.1 .
+
+To push it to docker hub tag it first using your user
+docker tag cloud-native-go:1.0.1 ragagit/cloud-native-go:1.0.1
+
+Then log in to docker 
+docker login
+ragadocker/Ju...1...
+
+Then push it
+docker push ragadocker/cloud-native-go:1.0.1
+
+Run it
+docker run -it -p 8080:8080 cloud-native-go:1.0.1
+
+
 docker pull golang:1.10.3-alpine3.7
 docker run alpine ls -l
 docker run alpine echo "hello from alpine"
 docker ps -a
 docker run -it alpine /bin/sh (this is interactive as if you were in the container)
 
+docker pull golang:1.7.5-alpine 
 
-
-==== Docker ===
 To build a docker image
 docker build -t ragamicro:1.0.0 .
 
@@ -81,6 +164,7 @@ docker rm $(docker ps -a -q)
 To remove all images
 docker rmi $(docker images -q)
 
+
 === Docker compose ===
 docker-compose build
 
@@ -88,7 +172,7 @@ docker-compose up -d
 docker-compose kill
 docker-compose stop nginx
 
-docker rm 
+docker-compose rm 
 
 docker image rm
 
