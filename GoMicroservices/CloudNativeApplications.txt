@@ -92,7 +92,7 @@ To build and tag a container
 docker build -f DockerfileSrc -t cloud-native-go:1.0.1 .
 
 To push it to docker hub tag it first using your user
-docker tag cloud-native-go:1.0.1 ragagit/cloud-native-go:1.0.1
+docker tag cloud-native-go:1.0.1 ragadocker/cloud-native-go:1.0.1
 
 Then log in to docker 
 docker login
@@ -250,31 +250,52 @@ Installation
 kubectl get deployments,pods,rs
 kubectl create -f k8s-deployment.yml
 kubectl apply -f k8s-deployment.yml
-kubectl describe deployment newragamicro 
+kubectl describe deployment ragamicro 
 
 - Service
 kubectl create -f k8s-service.yml
 kubectl get services
+minikube ip 
+Then test with this ip and port from kubectl get services
 
 - To stop the pods and services you need to delete the deployment
-kubectl delete deployment newragamicro
+kubectl delete deployment ragamicro
 kubectl create -f k8s-deployment.yml --record=true //monitor with 
 kubectl get pods -w
+kubectl delete service ragamicro
 
 - Scaling
-kubectl scale deployment newragamicro --replicas=5
-kubectl scale deployment newragamicro --replicas=2
+kubectl scale deployment ragamicro --replicas=5
+kubectl scale deployment ragamicro --replicas=2
 
 - Rollout history
-kubectl rollout history deployment newragamicro
+kubectl rollout history deployment ragamicro
 
 - To update in a rolling out fashion, first prepare the new version then
-kubectl set image deployment newragamicro newragamicro=ragadocker/newragamicro:1.0.2
+kubectl set image deployment ragamicro ragamicro=ragadocker/ragamicro:1.0.2
 
 - To roll back
-kubectl rollout undo deployment newragamicro
+kubectl rollout undo deployment ragamicro
 
+=============================
 === Advance Microservices ===
+=============================
+Libraries
+grpc/grpc-go
+apex/hystrix-go (latency and fault tolerance) 
+armon/go-metrics
+spacemonkeygo/monkit (metrics monitoring)
+sirupsen/logrus (logging)
+
+Service Frameworks
+go-kit/kit
+micro/go-micro
+NYTimes/gizmo
+
+Web Grameworks
+www.gorillatoolkit.org
+gin-gonic/gin
+
 gitHub.com/cncf/landscape
 go get -u github.com/gin-gonic/gin
 
@@ -398,6 +419,9 @@ Localhost:15672
 Modify yml files accordingly.
 
 protoc --go_out=plugins=grpc:. helloworld.proto
+
+=== Protobuf ===
+protoc -I=. --go_out=plugins=grpc:. ./helloworld.proto
 
 
 
